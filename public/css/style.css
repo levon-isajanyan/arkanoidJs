@@ -1,0 +1,43 @@
+
+html, body {
+    height: 100%;
+}
+#gamewrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#gamewrapper > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #05668D;
+    width: 87%;
+    height: 86%;
+    padding: 3em;
+}
+
+#gamewrapper > div > div:first-child {
+    height: 85%;
+    position: relative;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#gamewrapper > div > div:nth-child(2) {
+    height: 15%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+#gamewrapper > div > div:nth-child(2) > button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
